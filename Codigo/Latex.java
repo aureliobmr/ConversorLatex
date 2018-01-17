@@ -14,22 +14,22 @@ public class Latex {
 			System.out.println("1)Texto Inicial: ");
 			System.out.println("	"+textoInicial);
 		
-		//Convers„o Text->Latex 
-			textoInicial = textoInicial.replaceAll("·", "\\\\ía");
-			textoInicial = textoInicial.replaceAll("‡", "\\\\'a");
-			textoInicial = textoInicial.replaceAll("„", "\\\\~a");
-			textoInicial = textoInicial.replaceAll("‚", "\\\\^a");
-			textoInicial = textoInicial.replaceAll("È", "\\\\'e");
-			textoInicial = textoInicial.replaceAll("Í", "\\\\^e");
-			textoInicial = textoInicial.replaceAll("Ì", "\\\\í{\\\\i}");
-			textoInicial = textoInicial.replaceAll("Õ", "\\\\íI");
-			textoInicial = textoInicial.replaceAll("Û", "\\\\ío");
-			textoInicial = textoInicial.replaceAll("ı", "\\\\~o");
-			textoInicial = textoInicial.replaceAll("Ù", "\\\\^o");
-			textoInicial = textoInicial.replaceAll("˙", "\\\\íu");
-			textoInicial = textoInicial.replaceAll("¸", "\\\\"+"\""+"u");
-			textoInicial = textoInicial.replaceAll("Á", "\\\\c{c}");
-			textoInicial = textoInicial.replaceAll("«", "\\\\c{C}");
+		//Convers√£o Texto->Latex 
+			textoInicial = textoInicial.replaceAll("√°", "\\\\‚Äôa");
+			textoInicial = textoInicial.replaceAll("√†", "\\\\'a");
+			textoInicial = textoInicial.replaceAll("√£", "\\\\~a");
+			textoInicial = textoInicial.replaceAll("√¢", "\\\\^a");
+			textoInicial = textoInicial.replaceAll("√©", "\\\\'e");
+			textoInicial = textoInicial.replaceAll("√™", "\\\\^e");
+			textoInicial = textoInicial.replaceAll("√≠", "\\\\‚Äô{\\\\i}");
+			textoInicial = textoInicial.replaceAll("√ç", "\\\\‚ÄôI");
+			textoInicial = textoInicial.replaceAll("√≥", "\\\\‚Äôo");
+			textoInicial = textoInicial.replaceAll("√µ", "\\\\~o");
+			textoInicial = textoInicial.replaceAll("√¥", "\\\\^o");
+			textoInicial = textoInicial.replaceAll("√∫", "\\\\‚Äôu");
+			textoInicial = textoInicial.replaceAll("√º", "\\\\"+"\""+"u");
+			textoInicial = textoInicial.replaceAll("√ß", "\\\\c{c}");
+			textoInicial = textoInicial.replaceAll("√á", "\\\\c{C}");
 			
 			textoLatex = textoInicial;
 			
