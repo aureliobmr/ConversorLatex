@@ -1,6 +1,6 @@
 # ConversorLatex
 Código para transformar um texto para a formatação Latex. / Code to turn a text into Latex formatting.
-Versão atual: v1.0
+- Versão atual: v1.0
 
 ## Passo a passo
 - 1)Selecionar o texto que você pretende formatar para Latex
