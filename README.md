@@ -1,12 +1,6 @@
 # ConversorLatex
 Código para transformar um texto para a formatação Latex. / Code to turn a text into Latex formatting.
 
-## Criador
-RED
-
-## Versão 
-v1.0
-
 ## Passo a passo
 - 1)Selecionar o texto que você pretende formatar para Latex
 - 2)Acessar a "IDE Eclipse > Projeto(ConversorLatex) > Package(conversorLatex) > Classe(Latex) > Run > Run configurations... > Arguments"
@@ -18,6 +12,6 @@ v1.0
 - 1)Criar uma nova feature para: Converter um texto em formato Latex em um texto ASCII
 - 2)Adicionar símbolos matemáticos a conversão do texto
 
-## Agradecimentos aos colaboradores
+## Agradecimentos aos colaboradores (Versão / Criador)
 Obrigado,
-- v1.0 - RED
+- v1.0 / RED
