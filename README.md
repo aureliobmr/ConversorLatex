@@ -3,6 +3,7 @@ Código para transformar um texto para a formatação Latex. / Code to turn a te
 - Versão atual: v1.0
 
 ## Passo a passo
+- 0)Preparar o ambiente IDE ECLIPSE para trabalhar com figuras(unicode), na IDE ECLIPSE, acessar a aba de ferramentas:Windows Menu > Preferences > General (expanda) > Workspace (click)> Encontre o campo combo box com nome "Text File Encoding" > O valor default é “Cp1252″ > Altere o botão radio para selecionar outros, selecione a opção “UTF-8″ no campo combo box
 - 1)Selecionar o texto que você pretende formatar para Latex
 - 2)Acessar a "IDE Eclipse > Projeto(ConversorLatex) > Package(conversorLatex) > Classe(Latex) > Run > Run configurations... > Arguments"
 - 3)Adicionar o texto que pretende formatar entre aspas duplas (Exemplo: "The New York Times: Nasa lança foguete a marte e registra uma exibição de uma explosão de supernova.")
